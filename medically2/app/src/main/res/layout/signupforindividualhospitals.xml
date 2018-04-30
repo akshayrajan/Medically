@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/newbackgroundreturns"
+    tools:context="com.example.akshayrajan.medically.MainActivity">
+
+    <TextView
+        android:id="@+id/fullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="Full Name:"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fullName"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/fullName"
+        android:layout_toRightOf="@+id/fullName"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="text"
+        android:textCursorDrawable="@drawable/color_cursor" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fullName"
+        android:padding="10dp"
+        android:text="Allergies:"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/inputAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/address"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/fullName"
+        android:layout_toRightOf="@+id/fullName"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="text"
+        android:textCursorDrawable="@drawable/color_cursor" />
+
+    <EditText
+        android:id="@+id/secondLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/fullName"
+        android:layout_toRightOf="@+id/fullName"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="text"
+        android:textCursorDrawable="@drawable/color_cursor" />
+
+    <TextView
+        android:id="@+id/phoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondLine"
+        android:padding="10dp"
+        android:text="Phone No:"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/editPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/phoneNo"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/fullName"
+        android:layout_toRightOf="@+id/fullName"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="phone"
+        android:textCursorDrawable="@drawable/color_cursor" />
+
+
+    <TextView
+        android:id="@+id/bloodGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNo"
+        android:padding="10dp"
+        android:text="Blood Group:"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editBlood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bloodGroup"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/fullName"
+        android:layout_toRightOf="@+id/fullName"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="text"
+        android:textCursorDrawable="@drawable/color_cursor" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bloodGroup"
+        android:padding="10dp"
+        android:text="Gender:"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/Gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gender"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/fullName"
+        android:layout_toRightOf="@+id/fullName"
+        android:entries="@array/gender_arrays"
+        android:prompt="@string/gender_prompt" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gender"
+        android:padding="10dp"
+        android:text="Age:"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/age"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/fullName"
+        android:layout_toRightOf="@+id/fullName"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="number"
+        android:textCursorDrawable="@drawable/color_cursor" />
+
+    <TextView
+        android:id="@+id/emailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/age"
+        android:padding="10dp"
+        android:text="Email ID:"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/emailId"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/fullName"
+        android:layout_toRightOf="@+id/fullName"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textCursorDrawable="@drawable/color_cursor" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#000000"
+        android:hint="PATIENT ID"
+        android:textColorHint="#000000"
+        android:textCursorDrawable="@drawable/color_cursor" />
+
+<!--
+    <info.hoang8f.widget.FButton
+        android:id="@+id/primary_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_margin="10dp"
+        android:minHeight="@dimen/demo_button_min_height"
+        android:minWidth="@dimen/demo_button_min_width"
+        android:text="Primary Button"
+        android:textColor="@android:color/white"
+        fbutton:buttonColor="@color/fbutton_color_turquoise"
+        fbutton:shadowEnabled="true" />
+-->
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/mybutton"
+        android:text="Submit"
+        android:textSize="30dp">
+
+    </Button>
+
+
+</RelativeLayout>

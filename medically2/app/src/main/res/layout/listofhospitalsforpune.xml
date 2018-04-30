@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbackgroundreturns">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+
+                android:text="List of Hospitals"
+                android:textColor="#000000"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sayadrihospital"
+                android:paddingTop="10dp"
+                android:text="1.Sayadri Hospitals"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/colombiaasis"
+                android:paddingTop="10dp"
+                android:text="2.COLUMBIA ASIA"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/nobleclinics"
+                android:paddingTop="10dp"
+                android:text="3.Noble Clinics"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/shivamhospitals"
+                android:paddingTop="10dp"
+                android:text="4.Shivam Hospitals"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/goldencareHospitals"
+                android:paddingTop="10dp"
+                android:text="5.Golden Care Hospitals"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lifelinemultispecialityhospital"
+                android:paddingTop="10dp"
+                android:text="6.Lifeline Multispeciality Hospital "
+                android:textColor="#000000"
+
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/aditiyabirlahospital"
+                android:paddingTop="10dp"
+                android:text="7.Aditya Birla Memorial Hospital "
+
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/deenanathhospital"
+                android:paddingTop="10dp"
+                android:text="8.Deenanath Mangeshkar Hospital and Research Center "
+                android:textColor="#000000"
+
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/kotbagihospital"
+                android:paddingTop="10dp"
+                android:text="9.Kotbagi Hospital  "
+                android:textColor="#000000"
+
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lokmanyhospiatal"
+                android:paddingTop="10dp"
+                android:text="10.Lokmanya Hospital -Nigdi  "
+
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Rankahospital"
+                android:paddingTop="10dp"
+                android:text="11.Ranka Hospital "
+                android:textColor="#000000"
+
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:background="@drawable/mybutton"
+                android:text="Search for nearest Hospitals" />
+        </TableLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

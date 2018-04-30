@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbackgroundreturns"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chemist Shops"
+            android:textSize="40sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/firstshop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1.NAME OF SHOP"
+            android:textColor="#BA68C8"
+            android:textSize="25sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/shopdetails"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/mybutton"
+            android:text="DELEIVERY" />
+
+        <TextView
+            android:id="@+id/secondshop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:text="2.NAME OF SHOP"
+            android:textColor="#BA68C8"
+            android:textSize="25sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/shopdetails"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/thirdshop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            android:text="3.NAME OF SHOP"
+            android:textColor="#BA68C8"
+            android:textSize="25sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/shopdetails"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/mybutton"
+            android:text="DELEIVERY" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/newbackgroundreturns"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:text="List of DOCTORS"
+                android:textColor="#000000"
+                android:textSize="40sp"
+                />
+
+            <TextView
+                android:paddingTop="10dp"
+                android:text="1.DR ANIL KUMAR "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textColor="#000000"
+                android:text="Pediatrician "
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+            <Button
+                android:id="@+id/bookappointmentforpedia"
+                android:text="book Appointment"
+                android:background="@drawable/mybutton"
+                />
+            <TextView
+                android:id="@+id/DRANILKUMAR"
+                android:paddingTop="10dp"
+                android:text="1.DR HIMANSHU PANDEY "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textColor="#000000"
+                android:text="Gynaecologist "
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+            <Button
+                android:id="@+id/bookappointmentforgynec"
+                android:background="@drawable/mybutton"
+                android:text="book Appointment"
+                />
+            <TextView
+                android:paddingTop="10dp"
+                android:text="1.DR AKASH SHARMA "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:paddingTop="10dp"
+                android:textColor="#000000"
+                android:paddingLeft="20dp"
+                android:text="Pediatrician "
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+            <Button
+                android:id="@+id/bookappointmentforakash"
+                android:background="@drawable/mybutton"
+                android:text="book Appointment"
+                />
+            <TextView
+
+                android:paddingTop="10dp"
+                android:text="1.DR SUNIL KUMAR "
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textColor="#000000"
+                android:text="ENT "
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+            <Button
+                android:id="@+id/bookappointmentforent"
+                android:background="@drawable/mybutton"
+                android:text="book Appointment"
+                />
+
+        </TableLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

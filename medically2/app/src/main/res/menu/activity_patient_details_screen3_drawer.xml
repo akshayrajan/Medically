@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/prescription"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="PRESCRIPTION" />
+        <item
+            android:id="@+id/track_order"
+            android:icon="@drawable/ic_local_shipping_black_24dp"
+            android:title="TRACK ORDER" />
+
+        <item
+            android:id="@+id/change_password"
+            android:icon="@drawable/ic_mode_edit_black_24dp"
+            android:title="CHANGE PASSWORD" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_transfer_within_a_station_black_24dp"
+            android:title="LOGOUT" />
+        <item
+            android:id="@+id/searchformedicine"
+            android:icon="@drawable/ic_find_in_page_black_24dp"
+            android:title="FIND MEDICINE" />
+        <item
+            android:id="@+id/getappointment"
+            android:icon="@drawable/ic_videogame_asset_black_24dp"
+            android:title="GET APPOINTMENT" />
+
+    </group>
+
+
+</menu>
